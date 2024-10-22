@@ -1,0 +1,30 @@
+
+.notesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+.noteItem {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.noteItem:nth-child(odd) {
+    align-self: flex-start;
+  }
+  
+  .noteItem:nth-child(even) {
+    align-self: flex-end;
+  }
+  .noteItem h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .noteItem p {
+    margin-bottom: 0;
+    color: #666;
+  }
